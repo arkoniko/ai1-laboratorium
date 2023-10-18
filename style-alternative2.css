@@ -1,0 +1,59 @@
+body {
+    background-image: url("background1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #532019;
+    color: #fff;
+    overflow: hidden;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+nav {
+    background-color: #191c2e;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #d1b32e;
+    background-color: #222740;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+article {
+    border: 2px solid #532019;
+    padding: 15px;
+    margin: 10px;
+}
+
+aside {
+    background-color: #222740;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #532019;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
