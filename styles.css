@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+ }
+ .todo-container {
+    max-width: 600px;
+    margin: auto;
+ }
+ table {
+    width: 100%;
+    border-collapse: collapse;
+ }
+ th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+ }
+ th {
+    background-color: #f2f2f2;
+ }
+ ul {
+    list-style-type: none;
+    padding: 0;
+ }
+ li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+ }
+ .add-task-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+ }
+ input[type="text"], input[type="datetime-local"] {
+    width: 37.5%;
+    padding: 12px;
+    margin-bottom: 10px;
+ }
+ #searchBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ #searchInput {
+    width: 70%;
+    padding: 12px;
+ }
+ #searchButton {
+    padding: 12px;
+    cursor: pointer;
+ }
+ button {
+    padding: 12px;
+    cursor: pointer;
+ }
+ mark {
+    background-color: yellow;
+ }
