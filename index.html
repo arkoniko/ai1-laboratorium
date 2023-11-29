@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Gra Mapo-Puzzle</title>
+</head>
+<body>
+
+<div id="coordinates-bar"></div>
+<div id="map-container">
+  <div id="map"></div>
+</div>
+<div id="puzzle-container"></div>
+
+<div id="buttons-container">
+  <button id="myLocationBtn">Geolocation</button>
+  <button id="downloadMapBtn">Raster</button>
+  <button id="puzzle-btn">Puzzle</button>
+</div>
+
+<div id="puzzle-preview-container"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-image/leaflet-image.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
