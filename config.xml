@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Pogodynka</name>
+    <description>Pogodynka z LAB D</description>
+    <author email="mn51047@zut.edu.pl" href="https://cordova.apache.org">
+        Nikolas Mazur 51047
+    </author>
+    <content src="weather.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="electron">
+        <icon src="res/electron/fcb.png" />
+        <preference name="ElectronSettingsFilePath" value="res/electron/settings.json" />
+    </platform>
+
+</widget>
