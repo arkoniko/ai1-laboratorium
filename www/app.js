@@ -1,6 +1,6 @@
 class WeatherApp {
     constructor() {
-      this.apiKey = "8c0e02d50f3f95aacecf3bb79f5515bbS";
+      this.apiKey = "8c0e02d50f3f95aacecf3bb79f5515bb";
       this.currentWeatherLink = "https://api.openweathermap.org/data/2.5/weather?q={query}&appid=" + this.apiKey;
       this.forecastLink = "https://api.openweathermap.org/data/2.5/forecast?q={query}&appid=" + this.apiKey;
   

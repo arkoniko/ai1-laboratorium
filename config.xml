@@ -9,7 +9,7 @@
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <platform name="electron">
-        <icon src="res/electron/fcb.png" />
+        <icon src="res/electron/pogodynka_logo.png" />
         <preference name="ElectronSettingsFilePath" value="res/electron/settings.json" />
     </platform>
 
